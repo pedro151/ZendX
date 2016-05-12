@@ -1,0 +1,22 @@
+{
+  "name": "pedro151/ZendX",
+  "description": "ZendX",
+  "keywords": ["ZendX", "zf1", "Zend"],
+  "license": "MIT",
+  "version": "",
+  "authors": [
+    {
+      "name": "pedro151",
+      "email": "phacl@hotmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload" : {
+    "psr-4" : {
+      "ZendX\\" : "ZendX"
+    }
+  },
+  "require" : {
+    "php" : ">=5.3.0"
+  }
+}
