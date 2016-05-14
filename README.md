@@ -8,7 +8,6 @@ setting is in `application/configs/application.ini`
 ```ini
 ;CONFIG ZENDX
 resources.view.helperPath.ZendX_JQuery_View_Helper = APPLICATION_PATH "/../ZendX/JQuery/View/Helper"
-resources.view.helperPath.Zend_View_Helper = APPLICATION_PATH "/views/helpers"
 ```
 
 or in `application/Bootstrap.php`
