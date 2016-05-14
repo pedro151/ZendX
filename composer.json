@@ -3,14 +3,14 @@
   "description": "ZendX",
   "keywords": ["ZendX", "zf1", "Zend"],
   "license": "MIT",
-  "version": "",
+  "version": "v1.0",
   "authors": [
     {
       "name": "pedro151",
       "email": "phacl@hotmail.com"
     }
   ],
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "autoload" : {
     "psr-4" : {
       "ZendX\\" : "ZendX"
