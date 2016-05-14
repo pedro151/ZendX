@@ -1,5 +1,21 @@
 # ZendX
 
+Install
+-------
+```cmd
+$ composer require pedro151/zendx
+```
+
+setting is in `public\index.php`
+```php
+set_include_path(implode(PATH_SEPARATOR, array(
+    realpath(APPLICATION_PATH . '/../vendor/zendframework/zendframework1/library'),
+    realpath(APPLICATION_PATH . '/../vendor/pedro151/zendx/library'),
+    realpath(APPLICATION_PATH . '/../library'),
+    get_include_path(),
+)));
+```
+
 Configuration
 -------------
 
@@ -15,6 +31,7 @@ or in `application/Bootstrap.php`
 ```php
 $view->addHelperPath ( "ZendX/JQuery/View/Helper" , "ZendX_JQuery_View_Helper" );
 ```
+
 
 Enabling
 --------
